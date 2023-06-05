@@ -17,12 +17,12 @@ Have you tried `cd` into the folder that was just cloned, for example, `cd wavel
 
 3.To fix the issue, you can follow these steps:
 Open your terminal in VS Code.
-Run the ls command to see the files and directories in your current location.
-If the output of ls does not include the "wavelet" directory, you need to navigate to the correct directory by running cd wavelet.
-After navigating to the "wavelet" directory, use the ls command again to confirm that "NumberServer.java" is present.
-If "NumberServer.java" is in the "wavelet" directory, you can compile it by running the command javac NumberServer.java.
-Once the compilation is successful, you can run the program using the command java NumberServer.
-Make sure you are in the correct directory that contains the "NumberServer.java" file before compiling and running it.
+Run the `ls` command to see the files and directories in your current location.
+If the output of `ls` does not include the `wavelet` directory, you need to navigate to the correct directory by running `cd wavelet`.
+After navigating to the "`wavelet`" directory, use the `ls` command again to confirm that "`NumberServer.java`" is present.
+If "`NumberServer.java`" is in the "wavelet" directory, you can compile it by running the command `javac NumberServer.java`.
+Once the compilation is successful, you can run the program using the command `java NumberServer`.
+Make sure you are in the correct directory that contains the "`NumberServer.java`" file before compiling and running it.
 
 4.
 Directory structure:
@@ -35,7 +35,7 @@ Contents of each file before fixing the bug:
 
 NumberServer.java:
 
-
+```
 import java.util.Scanner;
 
 public class NumberServer {
@@ -48,8 +48,8 @@ public class NumberServer {
         System.out.println("The square of the number is: " + (number * number));
     }
 }
-
-
+```
+```
 script.sh:
 
 bash
@@ -60,6 +60,7 @@ echo "Running the script..."
 echo "Executing NumberServer.java..."
 java NumberServer
 echo "Script execution complete."
+```
 The bug:
 
 When running the bash script script.sh, instead of providing a valid number as input to NumberServer.java, we mistakenly provide a non-integer value. This will cause the scanner.nextInt() method to throw an exception, resulting in an error message.
@@ -71,7 +72,7 @@ Open the terminal in VS Code and navigate to the LabReport5 directory. Then, run
 bash
 Copy code
 ./script.sh
-This will execute the bash script and attempt to run NumberServer.java.
+This will execute the bash script and attempt to run `NumberServer.java.`
 
 Description of the bug:
 
