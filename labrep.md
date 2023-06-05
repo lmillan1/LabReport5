@@ -77,3 +77,9 @@ This will execute the bash script and attempt to run `NumberServer.java.`
 Description of the bug:
 
 The bug occurs when we run the bash script. It tries to execute NumberServer.java and expects a number as input. However, if we provide a non-integer value (e.g., a string or a floating-point number) instead, the scanner.nextInt() method will throw an exception. This will result in an error message displayed in the terminal.
+
+
+
+# Part 2:
+During the second half of this quarter, I had the opportunity to dive deeper into GitHub and learn how to navigate and effectively use it for publishing code. I discovered the importance of version control and the benefits of using Git and GitHub for managing code repositories.
+By using GitHub, I learned how to create new repositories, initialize them with code, and push my local code to remote repositories. I became familiar with concepts like branches, commits, and pull requests, which helped me collaborate with others on code projects.
